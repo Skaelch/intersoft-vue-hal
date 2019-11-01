@@ -10,7 +10,7 @@
 </template>
 
 <script>
-    import HypermediaFieldMixin from '../../mixins/HypermediaFieldMixin';
+    import HypermediaFieldMixin from '../mixins/HypermediaFieldMixin';
     import accounting from 'accounting';
 
     const currencyFormat = /^-?[0-9][0-9.]*(,[0-9]{1,2})?$/;

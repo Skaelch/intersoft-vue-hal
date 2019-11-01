@@ -3,7 +3,7 @@
 </template>
 
 <script>
-    import HypermediaFieldMixin from "../../mixins/HypermediaFieldMixin";
+    import HypermediaFieldMixin from "../mixins/HypermediaFieldMixin";
 
     export default {
         name        : 'h-text-field',

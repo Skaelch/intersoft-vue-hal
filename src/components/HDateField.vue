@@ -33,8 +33,8 @@
 </template>
 
 <script>
-    import HypermediaFieldMixin from "../../mixins/HypermediaFieldMixin";
-    import {formatDate, parseDate} from "../../util/date";
+    import HypermediaFieldMixin from "../mixins/HypermediaFieldMixin";
+    import {formatDate, parseDate} from "../util/date";
     import _ from 'lodash';
 
     export default {

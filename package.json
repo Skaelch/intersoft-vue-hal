@@ -1,15 +1,17 @@
 {
   "name": "intersoft-vue-js-hal",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Rest HAL based mixins for vue, vuetify",
-  "main": "index.js",
+  "main": "./dist/intersoft-vue-js-hal.common.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-bundle": "vue-cli-service build --target lib --name intersoft-vue-js-hal ./src/main.js"
   },
   "keywords": [],
   "author": "Skaelch",
   "license": "Apache-2.0",
   "dependencies": {
+    "accounting": "^0.4.1",
     "core-js": "^2.6.5",
     "vue": "^2.5.17",
     "vuetify": "^1.2.3"
@@ -21,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/Skaelch/intersoft-vue-hal/issues"
   },
-  "homepage": "https://github.com/Skaelch/intersoft-vue-hal#readme"
+  "homepage": "https://github.com/Skaelch/intersoft-vue-hal#readme",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ]
 }
